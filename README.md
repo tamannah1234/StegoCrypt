@@ -10,6 +10,7 @@ Technologies Used
 * Python
 * OpenCV
 * NumPy
+
 How to Use
 * Encryption (Hiding the Message)
 * Run the script and provide an image filename.
@@ -18,6 +19,7 @@ How to Use
 * Decryption (Extracting the Message)
 * Run the script and provide the encrypted image.
 * Enter the correct passcode to retrieve the hidden message.
+
 Installation
 * pip install opencv-python numpy
 * python stegocrypt.py
