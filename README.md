@@ -1,25 +1,66 @@
-# StegoCrypt
-StegoCrypt is a steganography-based encryption project that hides secret messages within images, ensuring secure communication. It allows users to encode and decode messages using password protection, making data transmission more private and secure.
+🔐 StegoCrypt – Image-Based Steganography & Encryption Tool
 
-Features
+StegoCrypt is a lightweight and secure steganography-based encryption tool that hides secret messages inside images.
+It ensures private communication by embedding text within image pixels and allowing message extraction only with a correct passcode.
+
+This tool is perfect for learning steganography, secure communication, and basic cryptography techniques.
+
+⭐ Features
+
 ✅ Hide secret messages inside images
-✅ Secure decryption with a passcode
-✅ Simple and lightweight implementation using OpenCV
 
-Technologies Used
-* Python
-* OpenCV
-* NumPy
+🔑 Decrypt hidden messages using a passcode
 
-How to Use
-* Encryption (Hiding the Message)
-* Run the script and provide an image filename.
-* Enter the secret message and a passcode.
-* The tool will generate an encrypted image containing the hidden message.
-* Decryption (Extracting the Message)
-* Run the script and provide the encrypted image.
-* Enter the correct passcode to retrieve the hidden message.
+🖼️ Uses pixel manipulation for steganography
 
-Installation
-* pip install opencv-python numpy
-* python stegocrypt.py
+⚡ Simple, lightweight, and easy to use
+
+🧠 Built with OpenCV & NumPy for efficient processing
+
+🧰 Technologies Used
+
+Python
+
+OpenCV
+
+NumPy
+
+🚀 How to Use
+🔵 Encrypt (Hide a Secret Message)
+
+Run the script:
+
+python stegocrypt.py
+
+
+Enter the image filename (e.g., input.png)
+
+Type the secret message
+
+Enter a passcode for protection
+
+The tool will generate an encrypted image containing your hidden message
+
+🟠 Decrypt (Extract the Hidden Message)
+
+Run the script again:
+
+python stegocrypt.py
+
+
+Enter the encrypted image file
+
+Provide the correct passcode
+
+The hidden message will be revealed
+
+📦 Installation
+
+Install the required dependencies:
+
+pip install opencv-python numpy
+
+
+Run the program:
+
+python stegocrypt.py
